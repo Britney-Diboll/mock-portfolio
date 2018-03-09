@@ -6,40 +6,74 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
-  background-image: url(./images/space.png);
+  /* background-image: url(./images/space.png); */
 
 }
+.first{
+  background-image: url(./images/space.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
+.second{
+background-color: rgb(8, 8, 53);
+}
 
-section1 , section2 {
+.one {
 display:flex;
 flex-direction: row;
 justify-content: center;
 text-align: left;
 color: white;
+margin: 0;
+padding:2em;
  
 }
 
-section1{
-margin:2em;
-padding:2em;
+.two {
+display:flex;
+flex-direction: row;
+justify-content: center;
+text-align: left;
+color: white;
+background-color: rgba(0, 0, 0, 0.5);
+ 
 }
 
-section2{
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-section3, section4 {
+.three {
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: white;
-  margin: 5px;
+  margin: 0px 5px 5px 5px;
   border: .5em;
   padding: .5em;
 }
-section5, section6, section7{
+
+.four {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  margin: 0px 5px 5px 5px;
+  border: .5em;
+  padding: .5em;
+}
+
+.lrg-pic{
+  height: 5em;
+}
+
+.five{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top:2em;
+}
+
+.six {
   display:flex;
   flex-direction: row;
   justify-content: center;
@@ -47,17 +81,24 @@ section5, section6, section7{
   color: white;
 }
 
+.seven {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
 
 .info{
-  background-color: rgba(126, 124, 124, 0.5);
+  background-color: rgba(167, 165, 165, 0.75);
   color:black;
   height: 5em;
 }
 
 .middle-pics{
   height: 150px ;
-  width: 150px;
-  border:1px solid # ;
+  width: auto;
+  border:1px solid transparent;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;  
@@ -70,6 +111,6 @@ section5, section6, section7{
   Margin: 1em;
 }
 
-section5{
-  margin-top:2em;
+.p-text {
+  color:gray;
 }
