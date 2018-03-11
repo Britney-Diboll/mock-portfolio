@@ -26,6 +26,17 @@ padding:2em;
  
 }
 
+.info{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(167, 165, 165, 0.75);
+  color:black;
+  height: 4em;
+  padding: .5em;
+  border-radius: 10px;
+}
+
 .two {
 display:flex;
 flex-direction: row;
@@ -44,10 +55,13 @@ background-color: rgba(0, 0, 0, 0.5);
 .three {
   display:flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: white;
   margin: 0 1em 2em 1em;
-} 
+  border-radius: 10px;
+}
+
 
 .four {
   display:flex;
@@ -55,17 +69,32 @@ background-color: rgba(0, 0, 0, 0.5);
   justify-content: flex-start;
   background-color: white;
   margin: 0 1em 2em 1em;
-}
+  border-radius: 10px;
+} 
 
 .p-head{
   font-size: 1.5em ;
   font-weight: bold;
+  padding: 5px
+  ;
 }
 
-.lrg-pic{
+.lrg-pic {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   max-width: 100%;
-  margin: -200px 0px;
-  clip-path: inset(200px 0px 200px 0px);
+  object-fit: cover;}
+
+.blue{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(5, 57, 116);
+  color: white;
+  width: 8em;
+  padding: .5em;
+  margin: -1% -1% -1% 90%;
+  border-radius: 5px;
 }
 
 .five{
@@ -93,14 +122,9 @@ background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 
-.info{
-  background-color: rgba(167, 165, 165, 0.75);
-  color:black;
-  height: 5em;
-}
 
 .middle-pics{
-  height: 150px ;
+  height: 125px ;
   width: auto;
   border:1px solid transparent;
   -webkit-border-radius: 20px;
@@ -117,4 +141,5 @@ background-color: rgba(0, 0, 0, 0.5);
 
 .p-text {
   color:gray;
+  padding: 1em;
 }
